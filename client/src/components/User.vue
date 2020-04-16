@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import { User as UserType } from 'domain'
+import { User as UserType } from 'domain/types'
 
 @Component
 export default class User extends Vue {
