@@ -6,7 +6,8 @@
   "author": "junilhwang",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "domain": "1.0.0"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0"
