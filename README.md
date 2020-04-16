@@ -77,7 +77,9 @@ yarn으로 install을 하면 공통 패키지는 root에 생기게 된다.
 
 ```
 
-[Server의 UserService](/server/src/api/user/user.service.ts)
+### 로직에 적용
+
+1. [Server의 UserService](/server/src/api/user/user.service.ts)
 
 ```ts
 import { Injectable } from "@nestjs/common"
@@ -96,7 +98,7 @@ export class UserService {
 }
 ```
 
-[Server의 UserController](/server/src/api/user/user.controller.ts)
+2. [Server의 UserController](/server/src/api/user/user.controller.ts)
 
 ```ts
 import {Controller, Get} from "@nestjs/common";
@@ -114,7 +116,7 @@ export class UserController {
 }
 ```
 
-[Adapter의 UserAdapter](/adapter/src/UserAdapter.ts)
+3. [Adapter의 UserAdapter](/adapter/src/UserAdapter.ts)
 
 ```ts
 import $http from 'axios'
@@ -130,7 +132,7 @@ export const userAdapter = Object.freeze({
 })
 ```
 
-[Client의 User Component](/client/src/components/User.vue)
+4. [Client의 User Component](/client/src/components/User.vue)
 
 ```vue
 <template>
