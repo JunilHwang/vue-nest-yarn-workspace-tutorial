@@ -1,0 +1,11 @@
+{
+  "name": "domain",
+  "version": "1.0.0",
+  "description": "project domain",
+  "main": "index.ts",
+  "author": "junil-hwang",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
