@@ -1,0 +1,14 @@
+{
+  "name": "adapter",
+  "version": "1.0.0",
+  "description": "project adapter",
+  "main": "index.js",
+  "author": "junilhwang",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0"
+  }
+}
